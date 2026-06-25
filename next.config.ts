@@ -22,4 +22,4 @@ const nextConfig = {
 };
 
 // قمنا بإلغاء صرامة النوع هنا عبر "as any" ليقبلها محرّر الأكواد فوراً
-export default nextConfig as any;
+export default nextConfig ;
