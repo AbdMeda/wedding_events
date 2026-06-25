@@ -1,0 +1,1519 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.15.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\.npmrc
+5 silly config load:file:C:\Users\PAVILION\.npmrc
+6 silly config load:file:C:\Users\PAVILION\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install framer-motion gsap @studio-freight/lenis lucide-react date-fns react-hook-form zod @hookform/resolvers clsx tailwind-merge recharts
+8 verbose argv "install" "framer-motion" "gsap" "@studio-freight/lenis" "lucide-react" "date-fns" "react-hook-form" "zod" "@hookform/resolvers" "clsx" "tailwind-merge" "recharts" "--no-audit" "--no-fund" "--loglevel" "warn" "--cache" ".\\.npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\.npm-cache\_logs\2026-06-21T08_31_30_158Z-
+10 verbose logfile C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\.npm-cache\_logs\2026-06-21T08_31_30_158Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly idealTree buildDeps
+14 silly fetch manifest framer-motion@*
+15 silly packumentCache full:https://registry.npmjs.org/framer-motion cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/framer-motion 4626ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/framer-motion set size:undefined disposed:false
+18 silly fetch manifest @emotion/is-prop-valid@*
+19 silly packumentCache full:https://registry.npmjs.org/@emotion%2fis-prop-valid cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/@emotion%2fis-prop-valid 451ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/@emotion%2fis-prop-valid set size:undefined disposed:false
+22 silly fetch manifest react@19.2.6
+23 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/react 1617ms (cache miss)
+25 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+26 silly fetch manifest react-dom@19.2.6
+27 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/react-dom 1104ms (cache miss)
+29 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+30 silly fetch manifest gsap@*
+31 silly packumentCache full:https://registry.npmjs.org/gsap cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/gsap 361ms (cache miss)
+33 silly packumentCache full:https://registry.npmjs.org/gsap set size:undefined disposed:false
+34 silly fetch manifest @studio-freight/lenis@*
+35 silly packumentCache full:https://registry.npmjs.org/@studio-freight%2flenis cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/@studio-freight%2flenis 266ms (cache miss)
+37 silly packumentCache full:https://registry.npmjs.org/@studio-freight%2flenis set size:undefined disposed:false
+38 silly fetch manifest lucide-react@*
+39 silly packumentCache full:https://registry.npmjs.org/lucide-react cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/lucide-react 540ms (cache miss)
+41 silly packumentCache full:https://registry.npmjs.org/lucide-react set size:undefined disposed:false
+42 silly fetch manifest date-fns@*
+43 silly packumentCache full:https://registry.npmjs.org/date-fns cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/date-fns 648ms (cache miss)
+45 silly packumentCache full:https://registry.npmjs.org/date-fns set size:undefined disposed:false
+46 silly fetch manifest react-hook-form@*
+47 silly packumentCache full:https://registry.npmjs.org/react-hook-form cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/react-hook-form 794ms (cache miss)
+49 silly packumentCache full:https://registry.npmjs.org/react-hook-form set size:undefined disposed:false
+50 silly fetch manifest zod@*
+51 silly packumentCache full:https://registry.npmjs.org/zod cache-miss
+52 http fetch GET 200 https://registry.npmjs.org/zod 462ms (cache miss)
+53 silly packumentCache full:https://registry.npmjs.org/zod set size:undefined disposed:false
+54 silly fetch manifest @hookform/resolvers@*
+55 silly packumentCache full:https://registry.npmjs.org/@hookform%2fresolvers cache-miss
+56 http fetch GET 200 https://registry.npmjs.org/@hookform%2fresolvers 550ms (cache miss)
+57 silly packumentCache full:https://registry.npmjs.org/@hookform%2fresolvers set size:undefined disposed:false
+58 silly fetch manifest clsx@*
+59 silly packumentCache full:https://registry.npmjs.org/clsx cache-miss
+60 http fetch GET 200 https://registry.npmjs.org/clsx 158ms (cache miss)
+61 silly packumentCache full:https://registry.npmjs.org/clsx set size:undefined disposed:false
+62 silly fetch manifest tailwind-merge@*
+63 silly packumentCache full:https://registry.npmjs.org/tailwind-merge cache-miss
+64 http fetch GET 200 https://registry.npmjs.org/tailwind-merge 542ms (cache miss)
+65 silly packumentCache full:https://registry.npmjs.org/tailwind-merge set size:undefined disposed:false
+66 silly fetch manifest recharts@*
+67 silly packumentCache full:https://registry.npmjs.org/recharts cache-miss
+68 http fetch GET 200 https://registry.npmjs.org/recharts 228ms (cache miss)
+69 silly packumentCache full:https://registry.npmjs.org/recharts set size:undefined disposed:false
+70 silly fetch manifest react-is@^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+71 silly packumentCache full:https://registry.npmjs.org/react-is cache-miss
+72 http fetch GET 200 https://registry.npmjs.org/react-is 734ms (cache miss)
+73 silly packumentCache full:https://registry.npmjs.org/react-is set size:undefined disposed:false
+74 silly placeDep ROOT @hookform/resolvers@5.4.0 OK for: site-creator-vinext-starter@0.1.0 want: *
+75 silly placeDep ROOT react-hook-form@7.80.0 OK for: @hookform/resolvers@5.4.0 want: ^7.55.0
+76 silly placeDep ROOT @studio-freight/lenis@1.0.42 OK for: site-creator-vinext-starter@0.1.0 want: *
+77 silly placeDep ROOT clsx@2.1.1 OK for: site-creator-vinext-starter@0.1.0 want: *
+78 silly placeDep ROOT date-fns@4.4.0 OK for: site-creator-vinext-starter@0.1.0 want: *
+79 silly placeDep ROOT framer-motion@12.40.0 OK for: site-creator-vinext-starter@0.1.0 want: *
+80 silly placeDep ROOT gsap@3.15.0 OK for: site-creator-vinext-starter@0.1.0 want: *
+81 silly placeDep ROOT lucide-react@1.21.0 OK for: site-creator-vinext-starter@0.1.0 want: *
+82 silly placeDep ROOT react-hook-form@7.80.0 REPLACE for: site-creator-vinext-starter@0.1.0 want: *
+83 silly placeDep ROOT recharts@3.8.1 OK for: site-creator-vinext-starter@0.1.0 want: *
+84 silly placeDep ROOT tailwind-merge@3.6.0 OK for: site-creator-vinext-starter@0.1.0 want: *
+85 silly placeDep ROOT zod@4.4.3 REPLACE for: site-creator-vinext-starter@0.1.0 want: *
+86 silly fetch manifest @standard-schema/utils@^0.3.0
+87 silly packumentCache full:https://registry.npmjs.org/@standard-schema%2futils cache-miss
+88 silly fetch manifest motion-dom@^12.40.0
+89 silly packumentCache full:https://registry.npmjs.org/motion-dom cache-miss
+90 silly fetch manifest motion-utils@^12.39.0
+91 silly packumentCache full:https://registry.npmjs.org/motion-utils cache-miss
+92 silly fetch manifest immer@^10.1.1
+93 silly packumentCache full:https://registry.npmjs.org/immer cache-miss
+94 silly fetch manifest reselect@5.1.1
+95 silly packumentCache full:https://registry.npmjs.org/reselect cache-miss
+96 silly fetch manifest es-toolkit@^1.39.3
+97 silly packumentCache full:https://registry.npmjs.org/es-toolkit cache-miss
+98 silly fetch manifest react-redux@8.x.x || 9.x.x
+99 silly packumentCache full:https://registry.npmjs.org/react-redux cache-miss
+100 http fetch GET 200 https://registry.npmjs.org/@standard-schema%2futils 445ms (cache miss)
+101 silly packumentCache full:https://registry.npmjs.org/@standard-schema%2futils set size:undefined disposed:false
+102 silly fetch manifest eventemitter3@^5.0.1
+103 silly packumentCache full:https://registry.npmjs.org/eventemitter3 cache-miss
+104 http fetch GET 200 https://registry.npmjs.org/eventemitter3 147ms (cache miss)
+105 silly packumentCache full:https://registry.npmjs.org/eventemitter3 set size:undefined disposed:false
+106 silly fetch manifest tiny-invariant@^1.3.3
+107 silly packumentCache full:https://registry.npmjs.org/tiny-invariant cache-miss
+108 http fetch GET 200 https://registry.npmjs.org/motion-utils 765ms (cache miss)
+109 silly packumentCache full:https://registry.npmjs.org/motion-utils set size:undefined disposed:false
+110 silly fetch manifest victory-vendor@^37.0.2
+111 silly packumentCache full:https://registry.npmjs.org/victory-vendor cache-miss
+112 http fetch GET 200 https://registry.npmjs.org/reselect 817ms (cache miss)
+113 silly packumentCache full:https://registry.npmjs.org/reselect set size:undefined disposed:false
+114 silly fetch manifest @reduxjs/toolkit@^1.9.0 || 2.x.x
+115 silly packumentCache full:https://registry.npmjs.org/@reduxjs%2ftoolkit cache-miss
+116 http fetch GET 200 https://registry.npmjs.org/motion-dom 936ms (cache miss)
+117 silly packumentCache full:https://registry.npmjs.org/motion-dom set size:undefined disposed:false
+118 silly fetch manifest decimal.js-light@^2.5.1
+119 silly packumentCache full:https://registry.npmjs.org/decimal.js-light cache-miss
+120 http fetch GET 200 https://registry.npmjs.org/tiny-invariant 421ms (cache miss)
+121 silly packumentCache full:https://registry.npmjs.org/tiny-invariant set size:undefined disposed:false
+122 silly fetch manifest use-sync-external-store@^1.2.2
+123 silly packumentCache full:https://registry.npmjs.org/use-sync-external-store cache-miss
+124 http fetch GET 200 https://registry.npmjs.org/victory-vendor 273ms (cache miss)
+125 silly packumentCache full:https://registry.npmjs.org/victory-vendor set size:undefined disposed:false
+126 http fetch GET 200 https://registry.npmjs.org/immer 1054ms (cache miss)
+127 silly packumentCache full:https://registry.npmjs.org/immer set size:undefined disposed:false
+128 http fetch GET 200 https://registry.npmjs.org/react-redux 1340ms (cache miss)
+129 silly packumentCache full:https://registry.npmjs.org/react-redux set size:undefined disposed:false
+130 http fetch GET 200 https://registry.npmjs.org/decimal.js-light 424ms (cache miss)
+131 silly packumentCache full:https://registry.npmjs.org/decimal.js-light set size:undefined disposed:false
+132 http fetch GET 200 https://registry.npmjs.org/@reduxjs%2ftoolkit 569ms (cache miss)
+133 silly packumentCache full:https://registry.npmjs.org/@reduxjs%2ftoolkit set size:undefined disposed:false
+134 http fetch GET 200 https://registry.npmjs.org/es-toolkit 1448ms (cache miss)
+135 silly packumentCache full:https://registry.npmjs.org/es-toolkit set size:undefined disposed:false
+136 http fetch GET 200 https://registry.npmjs.org/use-sync-external-store 647ms (cache miss)
+137 silly packumentCache full:https://registry.npmjs.org/use-sync-external-store set size:undefined disposed:false
+138 silly placeDep ROOT @standard-schema/utils@0.3.0 OK for: @hookform/resolvers@5.4.0 want: ^0.3.0
+139 silly placeDep ROOT motion-dom@12.40.0 OK for: framer-motion@12.40.0 want: ^12.40.0
+140 silly placeDep ROOT motion-utils@12.39.0 OK for: framer-motion@12.40.0 want: ^12.39.0
+141 silly fetch manifest @types/react@^18.2.25 || ^19
+142 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+143 http fetch GET 200 https://registry.npmjs.org/@types%2freact 637ms (cache miss)
+144 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+145 silly fetch manifest react@^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+146 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+147 http cache https://registry.npmjs.org/react 154ms (cache hit)
+148 silly packumentCache full:https://registry.npmjs.org/react set size:6724608 disposed:false
+149 silly fetch manifest redux@^5.0.0
+150 silly packumentCache full:https://registry.npmjs.org/redux cache-miss
+151 http fetch GET 200 https://registry.npmjs.org/redux 202ms (cache miss)
+152 silly packumentCache full:https://registry.npmjs.org/redux set size:undefined disposed:false
+153 silly placeDep ROOT @reduxjs/toolkit@2.12.0 OK for: recharts@3.8.1 want: ^1.9.0 || 2.x.x
+154 silly placeDep ROOT decimal.js-light@2.5.1 OK for: recharts@3.8.1 want: ^2.5.1
+155 silly placeDep ROOT es-toolkit@1.48.1 OK for: recharts@3.8.1 want: ^1.39.3
+156 silly placeDep ROOT eventemitter3@5.0.4 OK for: recharts@3.8.1 want: ^5.0.1
+157 silly placeDep ROOT immer@10.2.0 OK for: recharts@3.8.1 want: ^10.1.1
+158 silly placeDep ROOT react-redux@9.3.0 OK for: recharts@3.8.1 want: 8.x.x || 9.x.x
+159 silly placeDep ROOT reselect@5.1.1 OK for: recharts@3.8.1 want: 5.1.1
+160 silly placeDep ROOT tiny-invariant@1.3.3 OK for: recharts@3.8.1 want: ^1.3.3
+161 silly placeDep ROOT use-sync-external-store@1.6.0 OK for: recharts@3.8.1 want: ^1.2.2
+162 silly placeDep ROOT victory-vendor@37.3.6 OK for: recharts@3.8.1 want: ^37.0.2
+163 silly fetch manifest @standard-schema/spec@^1.0.0
+164 silly packumentCache full:https://registry.npmjs.org/@standard-schema%2fspec cache-miss
+165 silly fetch manifest immer@^11.0.0
+166 silly packumentCache full:https://registry.npmjs.org/immer cache-miss
+167 silly fetch manifest redux@^5.0.1
+168 silly packumentCache full:https://registry.npmjs.org/redux cache-miss
+169 silly fetch manifest redux-thunk@^3.1.0
+170 silly packumentCache full:https://registry.npmjs.org/redux-thunk cache-miss
+171 silly fetch manifest reselect@^5.1.0
+172 silly packumentCache full:https://registry.npmjs.org/reselect cache-miss
+173 silly fetch manifest @types/use-sync-external-store@^0.0.6
+174 silly packumentCache full:https://registry.npmjs.org/@types%2fuse-sync-external-store cache-miss
+175 silly fetch manifest use-sync-external-store@^1.4.0
+176 silly packumentCache full:https://registry.npmjs.org/use-sync-external-store cache-miss
+177 http cache https://registry.npmjs.org/immer 28ms (cache hit)
+178 silly packumentCache full:https://registry.npmjs.org/immer set size:761699 disposed:false
+179 silly fetch manifest d3-ease@^3.0.1
+180 silly packumentCache full:https://registry.npmjs.org/d3-ease cache-miss
+181 http cache https://registry.npmjs.org/redux 44ms (cache hit)
+182 silly packumentCache full:https://registry.npmjs.org/redux set size:553833 disposed:false
+183 silly fetch manifest d3-time@^3.0.0
+184 silly packumentCache full:https://registry.npmjs.org/d3-time cache-miss
+185 http cache https://registry.npmjs.org/reselect 57ms (cache hit)
+186 silly packumentCache full:https://registry.npmjs.org/reselect set size:353417 disposed:false
+187 silly fetch manifest d3-array@^3.1.6
+188 silly packumentCache full:https://registry.npmjs.org/d3-array cache-miss
+189 http cache https://registry.npmjs.org/use-sync-external-store 75ms (cache hit)
+190 silly packumentCache full:https://registry.npmjs.org/use-sync-external-store set size:4750887 disposed:false
+191 silly fetch manifest d3-scale@^4.0.2
+192 silly packumentCache full:https://registry.npmjs.org/d3-scale cache-miss
+193 http fetch GET 200 https://registry.npmjs.org/redux-thunk 186ms (cache miss)
+194 silly packumentCache full:https://registry.npmjs.org/redux-thunk set size:undefined disposed:false
+195 silly fetch manifest d3-shape@^3.1.0
+196 silly packumentCache full:https://registry.npmjs.org/d3-shape cache-miss
+197 http fetch GET 200 https://registry.npmjs.org/d3-scale 223ms (cache miss)
+198 silly packumentCache full:https://registry.npmjs.org/d3-scale set size:undefined disposed:false
+199 silly fetch manifest d3-timer@^3.0.1
+200 silly packumentCache full:https://registry.npmjs.org/d3-timer cache-miss
+201 http fetch GET 200 https://registry.npmjs.org/d3-time 309ms (cache miss)
+202 silly packumentCache full:https://registry.npmjs.org/d3-time set size:undefined disposed:false
+203 silly fetch manifest @types/d3-ease@^3.0.0
+204 silly packumentCache full:https://registry.npmjs.org/@types%2fd3-ease cache-miss
+205 http fetch GET 200 https://registry.npmjs.org/d3-array 310ms (cache miss)
+206 silly packumentCache full:https://registry.npmjs.org/d3-array set size:undefined disposed:false
+207 silly fetch manifest @types/d3-time@^3.0.0
+208 silly packumentCache full:https://registry.npmjs.org/@types%2fd3-time cache-miss
+209 http fetch GET 200 https://registry.npmjs.org/d3-ease 406ms (cache miss)
+210 silly packumentCache full:https://registry.npmjs.org/d3-ease set size:undefined disposed:false
+211 silly fetch manifest d3-interpolate@^3.0.1
+212 silly packumentCache full:https://registry.npmjs.org/d3-interpolate cache-miss
+213 http fetch GET 200 https://registry.npmjs.org/d3-shape 257ms (cache miss)
+214 silly packumentCache full:https://registry.npmjs.org/d3-shape set size:undefined disposed:false
+215 silly fetch manifest @types/d3-array@^3.0.3
+216 silly packumentCache full:https://registry.npmjs.org/@types%2fd3-array cache-miss
+217 http fetch GET 200 https://registry.npmjs.org/@standard-schema%2fspec 475ms (cache miss)
+218 silly packumentCache full:https://registry.npmjs.org/@standard-schema%2fspec set size:undefined disposed:false
+219 silly fetch manifest @types/d3-scale@^4.0.2
+220 silly packumentCache full:https://registry.npmjs.org/@types%2fd3-scale cache-miss
+221 http fetch GET 200 https://registry.npmjs.org/@types%2fuse-sync-external-store 482ms (cache miss)
+222 silly packumentCache full:https://registry.npmjs.org/@types%2fuse-sync-external-store set size:undefined disposed:false
+223 silly fetch manifest @types/d3-shape@^3.1.0
+224 silly packumentCache full:https://registry.npmjs.org/@types%2fd3-shape cache-miss
+225 http fetch GET 200 https://registry.npmjs.org/d3-timer 152ms (cache miss)
+226 silly packumentCache full:https://registry.npmjs.org/d3-timer set size:undefined disposed:false
+227 silly fetch manifest @types/d3-timer@^3.0.0
+228 silly packumentCache full:https://registry.npmjs.org/@types%2fd3-timer cache-miss
+229 http fetch GET 200 https://registry.npmjs.org/@types%2fd3-time 256ms (cache miss)
+230 silly packumentCache full:https://registry.npmjs.org/@types%2fd3-time set size:undefined disposed:false
+231 silly fetch manifest @types/d3-interpolate@^3.0.1
+232 silly packumentCache full:https://registry.npmjs.org/@types%2fd3-interpolate cache-miss
+233 http fetch GET 200 https://registry.npmjs.org/@types%2fd3-timer 150ms (cache miss)
+234 silly packumentCache full:https://registry.npmjs.org/@types%2fd3-timer set size:undefined disposed:false
+235 http fetch GET 200 https://registry.npmjs.org/@types%2fd3-ease 299ms (cache miss)
+236 silly packumentCache full:https://registry.npmjs.org/@types%2fd3-ease set size:undefined disposed:false
+237 http fetch GET 200 https://registry.npmjs.org/@types%2fd3-array 262ms (cache miss)
+238 silly packumentCache full:https://registry.npmjs.org/@types%2fd3-array set size:undefined disposed:false
+239 http fetch GET 200 https://registry.npmjs.org/@types%2fd3-scale 339ms (cache miss)
+240 silly packumentCache full:https://registry.npmjs.org/@types%2fd3-scale set size:undefined disposed:false
+241 http fetch GET 200 https://registry.npmjs.org/d3-interpolate 436ms (cache miss)
+242 silly packumentCache full:https://registry.npmjs.org/d3-interpolate set size:undefined disposed:false
+243 http fetch GET 200 https://registry.npmjs.org/@types%2fd3-interpolate 688ms (cache miss)
+244 silly packumentCache full:https://registry.npmjs.org/@types%2fd3-interpolate set size:undefined disposed:false
+245 http fetch GET 200 https://registry.npmjs.org/@types%2fd3-shape 851ms (cache miss)
+246 silly packumentCache full:https://registry.npmjs.org/@types%2fd3-shape set size:undefined disposed:false
+247 silly placeDep ROOT @standard-schema/spec@1.1.0 OK for: @reduxjs/toolkit@2.12.0 want: ^1.0.0
+248 silly placeDep node_modules/@reduxjs/toolkit immer@11.1.8 OK for: @reduxjs/toolkit@2.12.0 want: ^11.0.0
+249 silly placeDep ROOT redux@5.0.1 OK for: @reduxjs/toolkit@2.12.0 want: ^5.0.1
+250 silly placeDep ROOT redux-thunk@3.1.0 OK for: @reduxjs/toolkit@2.12.0 want: ^3.1.0
+251 silly placeDep ROOT @types/use-sync-external-store@0.0.6 OK for: react-redux@9.3.0 want: ^0.0.6
+252 silly placeDep ROOT @types/d3-array@3.2.2 OK for: victory-vendor@37.3.6 want: ^3.0.3
+253 silly placeDep ROOT @types/d3-ease@3.0.2 OK for: victory-vendor@37.3.6 want: ^3.0.0
+254 silly placeDep ROOT @types/d3-interpolate@3.0.4 OK for: victory-vendor@37.3.6 want: ^3.0.1
+255 silly placeDep ROOT @types/d3-scale@4.0.9 OK for: victory-vendor@37.3.6 want: ^4.0.2
+256 silly placeDep ROOT @types/d3-shape@3.1.8 OK for: victory-vendor@37.3.6 want: ^3.1.0
+257 silly placeDep ROOT @types/d3-time@3.0.4 OK for: victory-vendor@37.3.6 want: ^3.0.0
+258 silly placeDep ROOT @types/d3-timer@3.0.2 OK for: victory-vendor@37.3.6 want: ^3.0.0
+259 silly placeDep ROOT d3-array@3.2.4 OK for: victory-vendor@37.3.6 want: ^3.1.6
+260 silly placeDep ROOT d3-ease@3.0.1 OK for: victory-vendor@37.3.6 want: ^3.0.1
+261 silly placeDep ROOT d3-interpolate@3.0.1 OK for: victory-vendor@37.3.6 want: ^3.0.1
+262 silly placeDep ROOT d3-scale@4.0.2 OK for: victory-vendor@37.3.6 want: ^4.0.2
+263 silly placeDep ROOT d3-shape@3.2.0 OK for: victory-vendor@37.3.6 want: ^3.1.0
+264 silly placeDep ROOT d3-time@3.1.0 OK for: victory-vendor@37.3.6 want: ^3.0.0
+265 silly placeDep ROOT d3-timer@3.0.1 OK for: victory-vendor@37.3.6 want: ^3.0.1
+266 silly fetch manifest @types/d3-color@*
+267 silly packumentCache full:https://registry.npmjs.org/@types%2fd3-color cache-miss
+268 silly fetch manifest @types/d3-time@*
+269 silly packumentCache full:https://registry.npmjs.org/@types%2fd3-time cache-miss
+270 silly fetch manifest @types/d3-path@*
+271 silly packumentCache full:https://registry.npmjs.org/@types%2fd3-path cache-miss
+272 silly fetch manifest internmap@1 - 2
+273 silly packumentCache full:https://registry.npmjs.org/internmap cache-miss
+274 silly fetch manifest d3-color@1 - 3
+275 silly packumentCache full:https://registry.npmjs.org/d3-color cache-miss
+276 silly fetch manifest d3-format@1 - 3
+277 silly packumentCache full:https://registry.npmjs.org/d3-format cache-miss
+278 silly fetch manifest d3-time@2.1.1 - 3
+279 silly packumentCache full:https://registry.npmjs.org/d3-time cache-miss
+280 http cache https://registry.npmjs.org/@types%2fd3-time 74ms (cache hit)
+281 silly packumentCache full:https://registry.npmjs.org/@types%2fd3-time set size:52652 disposed:false
+282 silly fetch manifest d3-time-format@2 - 4
+283 silly packumentCache full:https://registry.npmjs.org/d3-time-format cache-miss
+284 http cache https://registry.npmjs.org/d3-time 71ms (cache hit)
+285 silly packumentCache full:https://registry.npmjs.org/d3-time set size:150406 disposed:false
+286 silly fetch manifest d3-path@^3.1.0
+287 silly packumentCache full:https://registry.npmjs.org/d3-path cache-miss
+288 http fetch GET 200 https://registry.npmjs.org/internmap 159ms (cache miss)
+289 silly packumentCache full:https://registry.npmjs.org/internmap set size:undefined disposed:false
+290 http fetch GET 200 https://registry.npmjs.org/d3-format 168ms (cache miss)
+291 silly packumentCache full:https://registry.npmjs.org/d3-format set size:undefined disposed:false
+292 http fetch GET 200 https://registry.npmjs.org/d3-color 259ms (cache miss)
+293 silly packumentCache full:https://registry.npmjs.org/d3-color set size:undefined disposed:false
+294 http fetch GET 200 https://registry.npmjs.org/@types%2fd3-color 322ms (cache miss)
+295 silly packumentCache full:https://registry.npmjs.org/@types%2fd3-color set size:undefined disposed:false
+296 http fetch GET 200 https://registry.npmjs.org/d3-path 250ms (cache miss)
+297 silly packumentCache full:https://registry.npmjs.org/d3-path set size:undefined disposed:false
+298 http fetch GET 200 https://registry.npmjs.org/d3-time-format 307ms (cache miss)
+299 silly packumentCache full:https://registry.npmjs.org/d3-time-format set size:undefined disposed:false
+300 http fetch GET 200 https://registry.npmjs.org/@types%2fd3-path 483ms (cache miss)
+301 silly packumentCache full:https://registry.npmjs.org/@types%2fd3-path set size:undefined disposed:false
+302 silly placeDep ROOT @types/d3-color@3.1.3 OK for: @types/d3-interpolate@3.0.4 want: *
+303 silly placeDep ROOT @types/d3-path@3.1.1 OK for: @types/d3-shape@3.1.8 want: *
+304 silly placeDep ROOT internmap@2.0.3 OK for: d3-array@3.2.4 want: 1 - 2
+305 silly placeDep ROOT d3-color@3.1.0 OK for: d3-interpolate@3.0.1 want: 1 - 3
+306 silly placeDep ROOT d3-format@3.1.2 OK for: d3-scale@4.0.2 want: 1 - 3
+307 silly placeDep ROOT d3-time-format@4.1.0 OK for: d3-scale@4.0.2 want: 2 - 4
+308 silly placeDep ROOT d3-path@3.1.0 OK for: d3-shape@3.2.0 want: ^3.1.0
+309 silly reify moves {}
+310 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@tailwindcss\oxide-wasm32-wasi
+311 silly reify mark deleted [
+311 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@tailwindcss\\oxide-wasm32-wasi'
+311 silly reify ]
+312 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\@emnapi\core
+313 silly reify mark deleted [
+313 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@tailwindcss\\oxide-wasm32-wasi\\node_modules\\@emnapi\\core'
+313 silly reify ]
+314 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\@emnapi\runtime
+315 silly reify mark deleted [
+315 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@tailwindcss\\oxide-wasm32-wasi\\node_modules\\@emnapi\\runtime'
+315 silly reify ]
+316 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\@emnapi\wasi-threads
+317 silly reify mark deleted [
+317 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@tailwindcss\\oxide-wasm32-wasi\\node_modules\\@emnapi\\wasi-threads'
+317 silly reify ]
+318 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\@napi-rs\wasm-runtime
+319 silly reify mark deleted [
+319 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@tailwindcss\\oxide-wasm32-wasi\\node_modules\\@napi-rs\\wasm-runtime'
+319 silly reify ]
+320 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\@tybys\wasm-util
+321 silly reify mark deleted [
+321 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@tailwindcss\\oxide-wasm32-wasi\\node_modules\\@tybys\\wasm-util'
+321 silly reify ]
+322 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\tslib
+323 silly reify mark deleted [
+323 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@tailwindcss\\oxide-wasm32-wasi\\node_modules\\tslib'
+323 silly reify ]
+324 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\lightningcss-win32-arm64-msvc
+325 silly reify mark deleted [
+325 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\lightningcss-win32-arm64-msvc'
+325 silly reify ]
+326 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\lightningcss-linux-x64-musl
+327 silly reify mark deleted [
+327 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\lightningcss-linux-x64-musl'
+327 silly reify ]
+328 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\lightningcss-linux-x64-gnu
+329 silly reify mark deleted [
+329 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\lightningcss-linux-x64-gnu'
+329 silly reify ]
+330 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\lightningcss-linux-arm64-musl
+331 silly reify mark deleted [
+331 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\lightningcss-linux-arm64-musl'
+331 silly reify ]
+332 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\lightningcss-linux-arm64-gnu
+333 silly reify mark deleted [
+333 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\lightningcss-linux-arm64-gnu'
+333 silly reify ]
+334 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\lightningcss-linux-arm-gnueabihf
+335 silly reify mark deleted [
+335 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\lightningcss-linux-arm-gnueabihf'
+335 silly reify ]
+336 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\lightningcss-freebsd-x64
+337 silly reify mark deleted [
+337 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\lightningcss-freebsd-x64'
+337 silly reify ]
+338 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\lightningcss-darwin-x64
+339 silly reify mark deleted [
+339 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\lightningcss-darwin-x64'
+339 silly reify ]
+340 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\lightningcss-darwin-arm64
+341 silly reify mark deleted [
+341 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\lightningcss-darwin-arm64'
+341 silly reify ]
+342 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\lightningcss-android-arm64
+343 silly reify mark deleted [
+343 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\lightningcss-android-arm64'
+343 silly reify ]
+344 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\fsevents
+345 silly reify mark deleted [
+345 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\fsevents'
+345 silly reify ]
+346 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@unrs\resolver-binding-win32-ia32-msvc
+347 silly reify mark deleted [
+347 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@unrs\\resolver-binding-win32-ia32-msvc'
+347 silly reify ]
+348 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@unrs\resolver-binding-win32-arm64-msvc
+349 silly reify mark deleted [
+349 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@unrs\\resolver-binding-win32-arm64-msvc'
+349 silly reify ]
+350 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@unrs\resolver-binding-wasm32-wasi
+351 silly reify mark deleted [
+351 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@unrs\\resolver-binding-wasm32-wasi'
+351 silly reify ]
+352 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@napi-rs\wasm-runtime
+353 silly reify mark deleted [
+353 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@napi-rs\\wasm-runtime'
+353 silly reify ]
+354 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@unrs\resolver-binding-linux-x64-musl
+355 silly reify mark deleted [
+355 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@unrs\\resolver-binding-linux-x64-musl'
+355 silly reify ]
+356 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@unrs\resolver-binding-linux-x64-gnu
+357 silly reify mark deleted [
+357 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@unrs\\resolver-binding-linux-x64-gnu'
+357 silly reify ]
+358 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@unrs\resolver-binding-linux-s390x-gnu
+359 silly reify mark deleted [
+359 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@unrs\\resolver-binding-linux-s390x-gnu'
+359 silly reify ]
+360 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@unrs\resolver-binding-linux-riscv64-musl
+361 silly reify mark deleted [
+361 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@unrs\\resolver-binding-linux-riscv64-musl'
+361 silly reify ]
+362 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@unrs\resolver-binding-linux-riscv64-gnu
+363 silly reify mark deleted [
+363 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@unrs\\resolver-binding-linux-riscv64-gnu'
+363 silly reify ]
+364 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@unrs\resolver-binding-linux-ppc64-gnu
+365 silly reify mark deleted [
+365 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@unrs\\resolver-binding-linux-ppc64-gnu'
+365 silly reify ]
+366 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@unrs\resolver-binding-linux-arm64-musl
+367 silly reify mark deleted [
+367 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@unrs\\resolver-binding-linux-arm64-musl'
+367 silly reify ]
+368 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@unrs\resolver-binding-linux-arm64-gnu
+369 silly reify mark deleted [
+369 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@unrs\\resolver-binding-linux-arm64-gnu'
+369 silly reify ]
+370 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@unrs\resolver-binding-linux-arm-musleabihf
+371 silly reify mark deleted [
+371 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@unrs\\resolver-binding-linux-arm-musleabihf'
+371 silly reify ]
+372 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@unrs\resolver-binding-linux-arm-gnueabihf
+373 silly reify mark deleted [
+373 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@unrs\\resolver-binding-linux-arm-gnueabihf'
+373 silly reify ]
+374 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@unrs\resolver-binding-freebsd-x64
+375 silly reify mark deleted [
+375 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@unrs\\resolver-binding-freebsd-x64'
+375 silly reify ]
+376 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@unrs\resolver-binding-darwin-x64
+377 silly reify mark deleted [
+377 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@unrs\\resolver-binding-darwin-x64'
+377 silly reify ]
+378 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@unrs\resolver-binding-darwin-arm64
+379 silly reify mark deleted [
+379 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@unrs\\resolver-binding-darwin-arm64'
+379 silly reify ]
+380 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@unrs\resolver-binding-android-arm64
+381 silly reify mark deleted [
+381 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@unrs\\resolver-binding-android-arm64'
+381 silly reify ]
+382 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@unrs\resolver-binding-android-arm-eabi
+383 silly reify mark deleted [
+383 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@unrs\\resolver-binding-android-arm-eabi'
+383 silly reify ]
+384 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@tailwindcss\oxide-win32-arm64-msvc
+385 silly reify mark deleted [
+385 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@tailwindcss\\oxide-win32-arm64-msvc'
+385 silly reify ]
+386 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@tailwindcss\oxide-linux-x64-musl
+387 silly reify mark deleted [
+387 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@tailwindcss\\oxide-linux-x64-musl'
+387 silly reify ]
+388 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@tailwindcss\oxide-linux-x64-gnu
+389 silly reify mark deleted [
+389 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@tailwindcss\\oxide-linux-x64-gnu'
+389 silly reify ]
+390 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@tailwindcss\oxide-linux-arm64-musl
+391 silly reify mark deleted [
+391 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@tailwindcss\\oxide-linux-arm64-musl'
+391 silly reify ]
+392 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@tailwindcss\oxide-linux-arm64-gnu
+393 silly reify mark deleted [
+393 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@tailwindcss\\oxide-linux-arm64-gnu'
+393 silly reify ]
+394 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@tailwindcss\oxide-linux-arm-gnueabihf
+395 silly reify mark deleted [
+395 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@tailwindcss\\oxide-linux-arm-gnueabihf'
+395 silly reify ]
+396 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@tailwindcss\oxide-freebsd-x64
+397 silly reify mark deleted [
+397 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@tailwindcss\\oxide-freebsd-x64'
+397 silly reify ]
+398 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@tailwindcss\oxide-darwin-x64
+399 silly reify mark deleted [
+399 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@tailwindcss\\oxide-darwin-x64'
+399 silly reify ]
+400 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@tailwindcss\oxide-darwin-arm64
+401 silly reify mark deleted [
+401 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@tailwindcss\\oxide-darwin-arm64'
+401 silly reify ]
+402 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@tailwindcss\oxide-android-arm64
+403 silly reify mark deleted [
+403 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@tailwindcss\\oxide-android-arm64'
+403 silly reify ]
+404 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@rolldown\binding-win32-arm64-msvc
+405 silly reify mark deleted [
+405 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@rolldown\\binding-win32-arm64-msvc'
+405 silly reify ]
+406 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@rolldown\binding-wasm32-wasi
+407 silly reify mark deleted [
+407 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@rolldown\\binding-wasm32-wasi'
+407 silly reify ]
+408 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@rolldown\binding-wasm32-wasi\node_modules\@napi-rs\wasm-runtime
+409 silly reify mark deleted [
+409 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@rolldown\\binding-wasm32-wasi\\node_modules\\@napi-rs\\wasm-runtime'
+409 silly reify ]
+410 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@rolldown\binding-openharmony-arm64
+411 silly reify mark deleted [
+411 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@rolldown\\binding-openharmony-arm64'
+411 silly reify ]
+412 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@rolldown\binding-linux-x64-musl
+413 silly reify mark deleted [
+413 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@rolldown\\binding-linux-x64-musl'
+413 silly reify ]
+414 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@rolldown\binding-linux-x64-gnu
+415 silly reify mark deleted [
+415 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@rolldown\\binding-linux-x64-gnu'
+415 silly reify ]
+416 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@rolldown\binding-linux-s390x-gnu
+417 silly reify mark deleted [
+417 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@rolldown\\binding-linux-s390x-gnu'
+417 silly reify ]
+418 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@rolldown\binding-linux-ppc64-gnu
+419 silly reify mark deleted [
+419 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@rolldown\\binding-linux-ppc64-gnu'
+419 silly reify ]
+420 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@rolldown\binding-linux-arm64-musl
+421 silly reify mark deleted [
+421 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@rolldown\\binding-linux-arm64-musl'
+421 silly reify ]
+422 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@rolldown\binding-linux-arm64-gnu
+423 silly reify mark deleted [
+423 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@rolldown\\binding-linux-arm64-gnu'
+423 silly reify ]
+424 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@rolldown\binding-linux-arm-gnueabihf
+425 silly reify mark deleted [
+425 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@rolldown\\binding-linux-arm-gnueabihf'
+425 silly reify ]
+426 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@rolldown\binding-freebsd-x64
+427 silly reify mark deleted [
+427 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@rolldown\\binding-freebsd-x64'
+427 silly reify ]
+428 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@rolldown\binding-darwin-x64
+429 silly reify mark deleted [
+429 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@rolldown\\binding-darwin-x64'
+429 silly reify ]
+430 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@rolldown\binding-darwin-arm64
+431 silly reify mark deleted [
+431 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@rolldown\\binding-darwin-arm64'
+431 silly reify ]
+432 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@rolldown\binding-android-arm64
+433 silly reify mark deleted [
+433 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@rolldown\\binding-android-arm64'
+433 silly reify ]
+434 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@next\swc-win32-arm64-msvc
+435 silly reify mark deleted [
+435 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@next\\swc-win32-arm64-msvc'
+435 silly reify ]
+436 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@next\swc-linux-x64-musl
+437 silly reify mark deleted [
+437 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@next\\swc-linux-x64-musl'
+437 silly reify ]
+438 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@next\swc-linux-x64-gnu
+439 silly reify mark deleted [
+439 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@next\\swc-linux-x64-gnu'
+439 silly reify ]
+440 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@next\swc-linux-arm64-musl
+441 silly reify mark deleted [
+441 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@next\\swc-linux-arm64-musl'
+441 silly reify ]
+442 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@next\swc-linux-arm64-gnu
+443 silly reify mark deleted [
+443 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@next\\swc-linux-arm64-gnu'
+443 silly reify ]
+444 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@next\swc-darwin-x64
+445 silly reify mark deleted [
+445 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@next\\swc-darwin-x64'
+445 silly reify ]
+446 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@next\swc-darwin-arm64
+447 silly reify mark deleted [
+447 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@next\\swc-darwin-arm64'
+447 silly reify ]
+448 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@img\sharp-win32-ia32
+449 silly reify mark deleted [
+449 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@img\\sharp-win32-ia32'
+449 silly reify ]
+450 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@img\sharp-win32-arm64
+451 silly reify mark deleted [
+451 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@img\\sharp-win32-arm64'
+451 silly reify ]
+452 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@img\sharp-wasm32
+453 silly reify mark deleted [
+453 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@img\\sharp-wasm32'
+453 silly reify ]
+454 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@img\sharp-linuxmusl-x64
+455 silly reify mark deleted [
+455 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@img\\sharp-linuxmusl-x64'
+455 silly reify ]
+456 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@img\sharp-linuxmusl-arm64
+457 silly reify mark deleted [
+457 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@img\\sharp-linuxmusl-arm64'
+457 silly reify ]
+458 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@img\sharp-linux-x64
+459 silly reify mark deleted [
+459 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@img\\sharp-linux-x64'
+459 silly reify ]
+460 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@img\sharp-linux-s390x
+461 silly reify mark deleted [
+461 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@img\\sharp-linux-s390x'
+461 silly reify ]
+462 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@img\sharp-linux-riscv64
+463 silly reify mark deleted [
+463 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@img\\sharp-linux-riscv64'
+463 silly reify ]
+464 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@img\sharp-linux-ppc64
+465 silly reify mark deleted [
+465 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@img\\sharp-linux-ppc64'
+465 silly reify ]
+466 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@img\sharp-linux-arm64
+467 silly reify mark deleted [
+467 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@img\\sharp-linux-arm64'
+467 silly reify ]
+468 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@img\sharp-linux-arm
+469 silly reify mark deleted [
+469 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@img\\sharp-linux-arm'
+469 silly reify ]
+470 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@img\sharp-libvips-linuxmusl-x64
+471 silly reify mark deleted [
+471 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@img\\sharp-libvips-linuxmusl-x64'
+471 silly reify ]
+472 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@img\sharp-libvips-linuxmusl-arm64
+473 silly reify mark deleted [
+473 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64'
+473 silly reify ]
+474 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@img\sharp-libvips-linux-x64
+475 silly reify mark deleted [
+475 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@img\\sharp-libvips-linux-x64'
+475 silly reify ]
+476 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@img\sharp-libvips-linux-s390x
+477 silly reify mark deleted [
+477 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@img\\sharp-libvips-linux-s390x'
+477 silly reify ]
+478 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@img\sharp-libvips-linux-riscv64
+479 silly reify mark deleted [
+479 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@img\\sharp-libvips-linux-riscv64'
+479 silly reify ]
+480 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@img\sharp-libvips-linux-ppc64
+481 silly reify mark deleted [
+481 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@img\\sharp-libvips-linux-ppc64'
+481 silly reify ]
+482 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@img\sharp-libvips-linux-arm64
+483 silly reify mark deleted [
+483 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@img\\sharp-libvips-linux-arm64'
+483 silly reify ]
+484 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@img\sharp-libvips-linux-arm
+485 silly reify mark deleted [
+485 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@img\\sharp-libvips-linux-arm'
+485 silly reify ]
+486 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@img\sharp-libvips-darwin-x64
+487 silly reify mark deleted [
+487 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@img\\sharp-libvips-darwin-x64'
+487 silly reify ]
+488 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@img\sharp-libvips-darwin-arm64
+489 silly reify mark deleted [
+489 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@img\\sharp-libvips-darwin-arm64'
+489 silly reify ]
+490 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@img\sharp-darwin-x64
+491 silly reify mark deleted [
+491 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@img\\sharp-darwin-x64'
+491 silly reify ]
+492 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@img\sharp-darwin-arm64
+493 silly reify mark deleted [
+493 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@img\\sharp-darwin-arm64'
+493 silly reify ]
+494 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\win32-ia32
+495 silly reify mark deleted [
+495 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\win32-ia32'
+495 silly reify ]
+496 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\win32-arm64
+497 silly reify mark deleted [
+497 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\win32-arm64'
+497 silly reify ]
+498 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\sunos-x64
+499 silly reify mark deleted [
+499 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\sunos-x64'
+499 silly reify ]
+500 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\openharmony-arm64
+501 silly reify mark deleted [
+501 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\openharmony-arm64'
+501 silly reify ]
+502 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\openbsd-x64
+503 silly reify mark deleted [
+503 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\openbsd-x64'
+503 silly reify ]
+504 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\openbsd-arm64
+505 silly reify mark deleted [
+505 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\openbsd-arm64'
+505 silly reify ]
+506 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\netbsd-x64
+507 silly reify mark deleted [
+507 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\netbsd-x64'
+507 silly reify ]
+508 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\netbsd-arm64
+509 silly reify mark deleted [
+509 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\netbsd-arm64'
+509 silly reify ]
+510 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\linux-x64
+511 silly reify mark deleted [
+511 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\linux-x64'
+511 silly reify ]
+512 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\linux-s390x
+513 silly reify mark deleted [
+513 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\linux-s390x'
+513 silly reify ]
+514 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\linux-riscv64
+515 silly reify mark deleted [
+515 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\linux-riscv64'
+515 silly reify ]
+516 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\linux-ppc64
+517 silly reify mark deleted [
+517 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\linux-ppc64'
+517 silly reify ]
+518 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\linux-mips64el
+519 silly reify mark deleted [
+519 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\linux-mips64el'
+519 silly reify ]
+520 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\linux-loong64
+521 silly reify mark deleted [
+521 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\linux-loong64'
+521 silly reify ]
+522 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\linux-ia32
+523 silly reify mark deleted [
+523 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\linux-ia32'
+523 silly reify ]
+524 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\linux-arm64
+525 silly reify mark deleted [
+525 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\linux-arm64'
+525 silly reify ]
+526 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\linux-arm
+527 silly reify mark deleted [
+527 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\linux-arm'
+527 silly reify ]
+528 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\freebsd-x64
+529 silly reify mark deleted [
+529 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\freebsd-x64'
+529 silly reify ]
+530 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\freebsd-arm64
+531 silly reify mark deleted [
+531 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\freebsd-arm64'
+531 silly reify ]
+532 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\darwin-x64
+533 silly reify mark deleted [
+533 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\darwin-x64'
+533 silly reify ]
+534 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\darwin-arm64
+535 silly reify mark deleted [
+535 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\darwin-arm64'
+535 silly reify ]
+536 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\android-x64
+537 silly reify mark deleted [
+537 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\android-x64'
+537 silly reify ]
+538 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\android-arm64
+539 silly reify mark deleted [
+539 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\android-arm64'
+539 silly reify ]
+540 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\android-arm
+541 silly reify mark deleted [
+541 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\android-arm'
+541 silly reify ]
+542 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild\aix-ppc64
+543 silly reify mark deleted [
+543 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild\\aix-ppc64'
+543 silly reify ]
+544 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@cloudflare\workerd-linux-arm64
+545 silly reify mark deleted [
+545 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@cloudflare\\workerd-linux-arm64'
+545 silly reify ]
+546 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@cloudflare\workerd-linux-64
+547 silly reify mark deleted [
+547 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@cloudflare\\workerd-linux-64'
+547 silly reify ]
+548 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@cloudflare\workerd-darwin-arm64
+549 silly reify mark deleted [
+549 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@cloudflare\\workerd-darwin-arm64'
+549 silly reify ]
+550 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@cloudflare\workerd-darwin-64
+551 silly reify mark deleted [
+551 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@cloudflare\\workerd-darwin-64'
+551 silly reify ]
+552 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\win32-ia32
+553 silly reify mark deleted [
+553 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\win32-ia32'
+553 silly reify ]
+554 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\win32-arm64
+555 silly reify mark deleted [
+555 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\win32-arm64'
+555 silly reify ]
+556 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\sunos-x64
+557 silly reify mark deleted [
+557 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\sunos-x64'
+557 silly reify ]
+558 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\openharmony-arm64
+559 silly reify mark deleted [
+559 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\openharmony-arm64'
+559 silly reify ]
+560 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\openbsd-x64
+561 silly reify mark deleted [
+561 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\openbsd-x64'
+561 silly reify ]
+562 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\openbsd-arm64
+563 silly reify mark deleted [
+563 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\openbsd-arm64'
+563 silly reify ]
+564 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\netbsd-x64
+565 silly reify mark deleted [
+565 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\netbsd-x64'
+565 silly reify ]
+566 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\netbsd-arm64
+567 silly reify mark deleted [
+567 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\netbsd-arm64'
+567 silly reify ]
+568 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\linux-x64
+569 silly reify mark deleted [
+569 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\linux-x64'
+569 silly reify ]
+570 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\linux-s390x
+571 silly reify mark deleted [
+571 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\linux-s390x'
+571 silly reify ]
+572 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\linux-riscv64
+573 silly reify mark deleted [
+573 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\linux-riscv64'
+573 silly reify ]
+574 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\linux-ppc64
+575 silly reify mark deleted [
+575 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\linux-ppc64'
+575 silly reify ]
+576 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\linux-mips64el
+577 silly reify mark deleted [
+577 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\linux-mips64el'
+577 silly reify ]
+578 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\linux-loong64
+579 silly reify mark deleted [
+579 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\linux-loong64'
+579 silly reify ]
+580 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\linux-ia32
+581 silly reify mark deleted [
+581 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\linux-ia32'
+581 silly reify ]
+582 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\linux-arm64
+583 silly reify mark deleted [
+583 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\linux-arm64'
+583 silly reify ]
+584 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\linux-arm
+585 silly reify mark deleted [
+585 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\linux-arm'
+585 silly reify ]
+586 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\freebsd-x64
+587 silly reify mark deleted [
+587 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\freebsd-x64'
+587 silly reify ]
+588 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\freebsd-arm64
+589 silly reify mark deleted [
+589 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\freebsd-arm64'
+589 silly reify ]
+590 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\darwin-x64
+591 silly reify mark deleted [
+591 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\darwin-x64'
+591 silly reify ]
+592 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\darwin-arm64
+593 silly reify mark deleted [
+593 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\darwin-arm64'
+593 silly reify ]
+594 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\android-x64
+595 silly reify mark deleted [
+595 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\android-x64'
+595 silly reify ]
+596 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\android-arm64
+597 silly reify mark deleted [
+597 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\android-arm64'
+597 silly reify ]
+598 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\android-arm
+599 silly reify mark deleted [
+599 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\android-arm'
+599 silly reify ]
+600 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\wrangler\node_modules\@esbuild\aix-ppc64
+601 silly reify mark deleted [
+601 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\wrangler\\node_modules\\@esbuild\\aix-ppc64'
+601 silly reify ]
+602 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\vite\node_modules\lightningcss-win32-arm64-msvc
+603 silly reify mark deleted [
+603 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\vite\\node_modules\\lightningcss-win32-arm64-msvc'
+603 silly reify ]
+604 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\vite\node_modules\lightningcss-linux-x64-musl
+605 silly reify mark deleted [
+605 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\vite\\node_modules\\lightningcss-linux-x64-musl'
+605 silly reify ]
+606 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\vite\node_modules\lightningcss-linux-x64-gnu
+607 silly reify mark deleted [
+607 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\vite\\node_modules\\lightningcss-linux-x64-gnu'
+607 silly reify ]
+608 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\vite\node_modules\lightningcss-linux-arm64-musl
+609 silly reify mark deleted [
+609 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\vite\\node_modules\\lightningcss-linux-arm64-musl'
+609 silly reify ]
+610 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\vite\node_modules\lightningcss-linux-arm64-gnu
+611 silly reify mark deleted [
+611 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\vite\\node_modules\\lightningcss-linux-arm64-gnu'
+611 silly reify ]
+612 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\vite\node_modules\lightningcss-linux-arm-gnueabihf
+613 silly reify mark deleted [
+613 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\vite\\node_modules\\lightningcss-linux-arm-gnueabihf'
+613 silly reify ]
+614 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\vite\node_modules\lightningcss-freebsd-x64
+615 silly reify mark deleted [
+615 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\vite\\node_modules\\lightningcss-freebsd-x64'
+615 silly reify ]
+616 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\vite\node_modules\lightningcss-darwin-x64
+617 silly reify mark deleted [
+617 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\vite\\node_modules\\lightningcss-darwin-x64'
+617 silly reify ]
+618 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\vite\node_modules\lightningcss-darwin-arm64
+619 silly reify mark deleted [
+619 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\vite\\node_modules\\lightningcss-darwin-arm64'
+619 silly reify ]
+620 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\vite\node_modules\lightningcss-android-arm64
+621 silly reify mark deleted [
+621 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\vite\\node_modules\\lightningcss-android-arm64'
+621 silly reify ]
+622 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\win32-ia32
+623 silly reify mark deleted [
+623 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\win32-ia32'
+623 silly reify ]
+624 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\win32-arm64
+625 silly reify mark deleted [
+625 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\win32-arm64'
+625 silly reify ]
+626 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\sunos-x64
+627 silly reify mark deleted [
+627 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\sunos-x64'
+627 silly reify ]
+628 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\openharmony-arm64
+629 silly reify mark deleted [
+629 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\openharmony-arm64'
+629 silly reify ]
+630 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\openbsd-x64
+631 silly reify mark deleted [
+631 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\openbsd-x64'
+631 silly reify ]
+632 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\openbsd-arm64
+633 silly reify mark deleted [
+633 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\openbsd-arm64'
+633 silly reify ]
+634 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\netbsd-x64
+635 silly reify mark deleted [
+635 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\netbsd-x64'
+635 silly reify ]
+636 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\netbsd-arm64
+637 silly reify mark deleted [
+637 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\netbsd-arm64'
+637 silly reify ]
+638 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\linux-x64
+639 silly reify mark deleted [
+639 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\linux-x64'
+639 silly reify ]
+640 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\linux-s390x
+641 silly reify mark deleted [
+641 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\linux-s390x'
+641 silly reify ]
+642 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\linux-riscv64
+643 silly reify mark deleted [
+643 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\linux-riscv64'
+643 silly reify ]
+644 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\linux-ppc64
+645 silly reify mark deleted [
+645 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\linux-ppc64'
+645 silly reify ]
+646 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\linux-mips64el
+647 silly reify mark deleted [
+647 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\linux-mips64el'
+647 silly reify ]
+648 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\linux-loong64
+649 silly reify mark deleted [
+649 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\linux-loong64'
+649 silly reify ]
+650 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\linux-ia32
+651 silly reify mark deleted [
+651 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\linux-ia32'
+651 silly reify ]
+652 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\linux-arm64
+653 silly reify mark deleted [
+653 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\linux-arm64'
+653 silly reify ]
+654 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\linux-arm
+655 silly reify mark deleted [
+655 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\linux-arm'
+655 silly reify ]
+656 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\freebsd-x64
+657 silly reify mark deleted [
+657 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\freebsd-x64'
+657 silly reify ]
+658 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\freebsd-arm64
+659 silly reify mark deleted [
+659 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\freebsd-arm64'
+659 silly reify ]
+660 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\darwin-x64
+661 silly reify mark deleted [
+661 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\darwin-x64'
+661 silly reify ]
+662 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\darwin-arm64
+663 silly reify mark deleted [
+663 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\darwin-arm64'
+663 silly reify ]
+664 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\android-x64
+665 silly reify mark deleted [
+665 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\android-x64'
+665 silly reify ]
+666 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\android-arm64
+667 silly reify mark deleted [
+667 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\android-arm64'
+667 silly reify ]
+668 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\android-arm
+669 silly reify mark deleted [
+669 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\android-arm'
+669 silly reify ]
+670 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\drizzle-kit\node_modules\@esbuild\aix-ppc64
+671 silly reify mark deleted [
+671 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\aix-ppc64'
+671 silly reify ]
+672 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\win32-ia32
+673 silly reify mark deleted [
+673 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\win32-ia32'
+673 silly reify ]
+674 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\win32-arm64
+675 silly reify mark deleted [
+675 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\win32-arm64'
+675 silly reify ]
+676 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\sunos-x64
+677 silly reify mark deleted [
+677 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\sunos-x64'
+677 silly reify ]
+678 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\openbsd-x64
+679 silly reify mark deleted [
+679 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\openbsd-x64'
+679 silly reify ]
+680 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\netbsd-x64
+681 silly reify mark deleted [
+681 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\netbsd-x64'
+681 silly reify ]
+682 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\linux-x64
+683 silly reify mark deleted [
+683 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\linux-x64'
+683 silly reify ]
+684 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\linux-s390x
+685 silly reify mark deleted [
+685 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\linux-s390x'
+685 silly reify ]
+686 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\linux-riscv64
+687 silly reify mark deleted [
+687 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\linux-riscv64'
+687 silly reify ]
+688 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\linux-ppc64
+689 silly reify mark deleted [
+689 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\linux-ppc64'
+689 silly reify ]
+690 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\linux-mips64el
+691 silly reify mark deleted [
+691 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\linux-mips64el'
+691 silly reify ]
+692 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\linux-loong64
+693 silly reify mark deleted [
+693 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\linux-loong64'
+693 silly reify ]
+694 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\linux-ia32
+695 silly reify mark deleted [
+695 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\linux-ia32'
+695 silly reify ]
+696 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\linux-arm64
+697 silly reify mark deleted [
+697 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\linux-arm64'
+697 silly reify ]
+698 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\linux-arm
+699 silly reify mark deleted [
+699 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\linux-arm'
+699 silly reify ]
+700 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\freebsd-x64
+701 silly reify mark deleted [
+701 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\freebsd-x64'
+701 silly reify ]
+702 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\freebsd-arm64
+703 silly reify mark deleted [
+703 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\freebsd-arm64'
+703 silly reify ]
+704 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\darwin-x64
+705 silly reify mark deleted [
+705 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\darwin-x64'
+705 silly reify ]
+706 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\darwin-arm64
+707 silly reify mark deleted [
+707 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\darwin-arm64'
+707 silly reify ]
+708 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\android-x64
+709 silly reify mark deleted [
+709 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\android-x64'
+709 silly reify ]
+710 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\android-arm64
+711 silly reify mark deleted [
+711 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\android-arm64'
+711 silly reify ]
+712 verbose reify failed optional dependency C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\android-arm
+713 silly reify mark deleted [
+713 silly reify   'C:\\Users\\PAVILION\\Documents\\Codex\\2026-06-21\\sites-plugin-sites-openai-bundled\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\android-arm'
+713 silly reify ]
+714 http cache d3-path@https://registry.npmjs.org/d3-path/-/d3-path-3.1.0.tgz 0ms (cache hit)
+715 http cache d3-format@https://registry.npmjs.org/d3-format/-/d3-format-3.1.2.tgz 0ms (cache hit)
+716 http cache d3-color@https://registry.npmjs.org/d3-color/-/d3-color-3.1.0.tgz 0ms (cache hit)
+717 http cache d3-time-format@https://registry.npmjs.org/d3-time-format/-/d3-time-format-4.1.0.tgz 0ms (cache hit)
+718 http cache internmap@https://registry.npmjs.org/internmap/-/internmap-2.0.3.tgz 0ms (cache hit)
+719 http cache @types/d3-path@https://registry.npmjs.org/@types/d3-path/-/d3-path-3.1.1.tgz 0ms (cache hit)
+720 http cache @types/d3-color@https://registry.npmjs.org/@types/d3-color/-/d3-color-3.1.3.tgz 0ms (cache hit)
+721 http cache d3-time@https://registry.npmjs.org/d3-time/-/d3-time-3.1.0.tgz 0ms (cache hit)
+722 http cache d3-shape@https://registry.npmjs.org/d3-shape/-/d3-shape-3.2.0.tgz 0ms (cache hit)
+723 http cache d3-timer@https://registry.npmjs.org/d3-timer/-/d3-timer-3.0.1.tgz 0ms (cache hit)
+724 http cache d3-scale@https://registry.npmjs.org/d3-scale/-/d3-scale-4.0.2.tgz 0ms (cache hit)
+725 http cache d3-interpolate@https://registry.npmjs.org/d3-interpolate/-/d3-interpolate-3.0.1.tgz 0ms (cache hit)
+726 http cache @types/d3-timer@https://registry.npmjs.org/@types/d3-timer/-/d3-timer-3.0.2.tgz 0ms (cache hit)
+727 http cache d3-ease@https://registry.npmjs.org/d3-ease/-/d3-ease-3.0.1.tgz 0ms (cache hit)
+728 http cache @types/d3-time@https://registry.npmjs.org/@types/d3-time/-/d3-time-3.0.4.tgz 0ms (cache hit)
+729 http cache @types/d3-shape@https://registry.npmjs.org/@types/d3-shape/-/d3-shape-3.1.8.tgz 0ms (cache hit)
+730 http cache d3-array@https://registry.npmjs.org/d3-array/-/d3-array-3.2.4.tgz 0ms (cache hit)
+731 http cache @types/d3-scale@https://registry.npmjs.org/@types/d3-scale/-/d3-scale-4.0.9.tgz 0ms (cache hit)
+732 http cache @types/d3-interpolate@https://registry.npmjs.org/@types/d3-interpolate/-/d3-interpolate-3.0.4.tgz 0ms (cache hit)
+733 http cache redux-thunk@https://registry.npmjs.org/redux-thunk/-/redux-thunk-3.1.0.tgz 0ms (cache hit)
+734 http cache @types/d3-array@https://registry.npmjs.org/@types/d3-array/-/d3-array-3.2.2.tgz 0ms (cache hit)
+735 http cache redux@https://registry.npmjs.org/redux/-/redux-5.0.1.tgz 0ms (cache hit)
+736 http cache @types/use-sync-external-store@https://registry.npmjs.org/@types/use-sync-external-store/-/use-sync-external-store-0.0.6.tgz 0ms (cache hit)
+737 http cache victory-vendor@https://registry.npmjs.org/victory-vendor/-/victory-vendor-37.3.6.tgz 0ms (cache hit)
+738 http cache tiny-invariant@https://registry.npmjs.org/tiny-invariant/-/tiny-invariant-1.3.3.tgz 0ms (cache hit)
+739 http cache use-sync-external-store@https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.6.0.tgz 0ms (cache hit)
+740 http cache reselect@https://registry.npmjs.org/reselect/-/reselect-5.1.1.tgz 0ms (cache hit)
+741 http cache immer@https://registry.npmjs.org/immer/-/immer-10.2.0.tgz 0ms (cache hit)
+742 http cache eventemitter3@https://registry.npmjs.org/eventemitter3/-/eventemitter3-5.0.4.tgz 0ms (cache hit)
+743 http cache react-redux@https://registry.npmjs.org/react-redux/-/react-redux-9.3.0.tgz 0ms (cache hit)
+744 http cache @standard-schema/spec@https://registry.npmjs.org/@standard-schema/spec/-/spec-1.1.0.tgz 0ms (cache hit)
+745 http cache @types/d3-ease@https://registry.npmjs.org/@types/d3-ease/-/d3-ease-3.0.2.tgz 0ms (cache hit)
+746 http cache es-toolkit@https://registry.npmjs.org/es-toolkit/-/es-toolkit-1.48.1.tgz 0ms (cache hit)
+747 http cache @reduxjs/toolkit@https://registry.npmjs.org/@reduxjs/toolkit/-/toolkit-2.12.0.tgz 0ms (cache hit)
+748 http cache @standard-schema/utils@https://registry.npmjs.org/@standard-schema/utils/-/utils-0.3.0.tgz 0ms (cache hit)
+749 http cache decimal.js-light@https://registry.npmjs.org/decimal.js-light/-/decimal.js-light-2.5.1.tgz 0ms (cache hit)
+750 http cache motion-dom@https://registry.npmjs.org/motion-dom/-/motion-dom-12.40.0.tgz 0ms (cache hit)
+751 http cache tailwind-merge@https://registry.npmjs.org/tailwind-merge/-/tailwind-merge-3.6.0.tgz 0ms (cache hit)
+752 http cache react-hook-form@https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.80.0.tgz 0ms (cache hit)
+753 http cache recharts@https://registry.npmjs.org/recharts/-/recharts-3.8.1.tgz 0ms (cache hit)
+754 http cache lucide-react@https://registry.npmjs.org/lucide-react/-/lucide-react-1.21.0.tgz 0ms (cache hit)
+755 http cache gsap@https://registry.npmjs.org/gsap/-/gsap-3.15.0.tgz 0ms (cache hit)
+756 http cache date-fns@https://registry.npmjs.org/date-fns/-/date-fns-4.4.0.tgz 0ms (cache hit)
+757 http cache framer-motion@https://registry.npmjs.org/framer-motion/-/framer-motion-12.40.0.tgz 0ms (cache hit)
+758 http cache clsx@https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz 0ms (cache hit)
+759 http cache @studio-freight/lenis@https://registry.npmjs.org/@studio-freight/lenis/-/lenis-1.0.42.tgz 0ms (cache hit)
+760 http cache @napi-rs/wasm-runtime@https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-0.2.12.tgz 0ms (cache hit)
+761 http cache motion-utils@https://registry.npmjs.org/motion-utils/-/motion-utils-12.39.0.tgz 0ms (cache hit)
+762 http cache @hookform/resolvers@https://registry.npmjs.org/@hookform/resolvers/-/resolvers-5.4.0.tgz 0ms (cache hit)
+763 silly tarball no local data for d3-path@https://registry.npmjs.org/d3-path/-/d3-path-3.1.0.tgz. Extracting by manifest.
+764 silly tarball no local data for d3-format@https://registry.npmjs.org/d3-format/-/d3-format-3.1.2.tgz. Extracting by manifest.
+765 silly tarball no local data for d3-color@https://registry.npmjs.org/d3-color/-/d3-color-3.1.0.tgz. Extracting by manifest.
+766 silly tarball no local data for d3-time-format@https://registry.npmjs.org/d3-time-format/-/d3-time-format-4.1.0.tgz. Extracting by manifest.
+767 http cache @napi-rs/wasm-runtime@https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-1.1.4.tgz 0ms (cache hit)
+768 silly tarball no local data for internmap@https://registry.npmjs.org/internmap/-/internmap-2.0.3.tgz. Extracting by manifest.
+769 silly tarball no local data for @types/d3-path@https://registry.npmjs.org/@types/d3-path/-/d3-path-3.1.1.tgz. Extracting by manifest.
+770 silly tarball no local data for @types/d3-color@https://registry.npmjs.org/@types/d3-color/-/d3-color-3.1.3.tgz. Extracting by manifest.
+771 silly tarball no local data for d3-time@https://registry.npmjs.org/d3-time/-/d3-time-3.1.0.tgz. Extracting by manifest.
+772 silly tarball no local data for d3-shape@https://registry.npmjs.org/d3-shape/-/d3-shape-3.2.0.tgz. Extracting by manifest.
+773 silly tarball no local data for d3-timer@https://registry.npmjs.org/d3-timer/-/d3-timer-3.0.1.tgz. Extracting by manifest.
+774 silly tarball no local data for d3-scale@https://registry.npmjs.org/d3-scale/-/d3-scale-4.0.2.tgz. Extracting by manifest.
+775 http cache immer@https://registry.npmjs.org/immer/-/immer-11.1.8.tgz 0ms (cache hit)
+776 silly tarball no local data for d3-interpolate@https://registry.npmjs.org/d3-interpolate/-/d3-interpolate-3.0.1.tgz. Extracting by manifest.
+777 silly tarball no local data for @types/d3-timer@https://registry.npmjs.org/@types/d3-timer/-/d3-timer-3.0.2.tgz. Extracting by manifest.
+778 silly tarball no local data for d3-ease@https://registry.npmjs.org/d3-ease/-/d3-ease-3.0.1.tgz. Extracting by manifest.
+779 silly tarball no local data for @types/d3-time@https://registry.npmjs.org/@types/d3-time/-/d3-time-3.0.4.tgz. Extracting by manifest.
+780 silly tarball no local data for @types/d3-shape@https://registry.npmjs.org/@types/d3-shape/-/d3-shape-3.1.8.tgz. Extracting by manifest.
+781 silly tarball no local data for d3-array@https://registry.npmjs.org/d3-array/-/d3-array-3.2.4.tgz. Extracting by manifest.
+782 silly tarball no local data for @types/d3-scale@https://registry.npmjs.org/@types/d3-scale/-/d3-scale-4.0.9.tgz. Extracting by manifest.
+783 silly tarball no local data for @types/d3-interpolate@https://registry.npmjs.org/@types/d3-interpolate/-/d3-interpolate-3.0.4.tgz. Extracting by manifest.
+784 silly tarball no local data for redux-thunk@https://registry.npmjs.org/redux-thunk/-/redux-thunk-3.1.0.tgz. Extracting by manifest.
+785 silly tarball no local data for @types/d3-array@https://registry.npmjs.org/@types/d3-array/-/d3-array-3.2.2.tgz. Extracting by manifest.
+786 silly tarball no local data for redux@https://registry.npmjs.org/redux/-/redux-5.0.1.tgz. Extracting by manifest.
+787 silly tarball no local data for @types/use-sync-external-store@https://registry.npmjs.org/@types/use-sync-external-store/-/use-sync-external-store-0.0.6.tgz. Extracting by manifest.
+788 silly tarball no local data for victory-vendor@https://registry.npmjs.org/victory-vendor/-/victory-vendor-37.3.6.tgz. Extracting by manifest.
+789 silly tarball no local data for tiny-invariant@https://registry.npmjs.org/tiny-invariant/-/tiny-invariant-1.3.3.tgz. Extracting by manifest.
+790 silly tarball no local data for use-sync-external-store@https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.6.0.tgz. Extracting by manifest.
+791 silly tarball no local data for reselect@https://registry.npmjs.org/reselect/-/reselect-5.1.1.tgz. Extracting by manifest.
+792 silly tarball no local data for immer@https://registry.npmjs.org/immer/-/immer-10.2.0.tgz. Extracting by manifest.
+793 silly tarball no local data for eventemitter3@https://registry.npmjs.org/eventemitter3/-/eventemitter3-5.0.4.tgz. Extracting by manifest.
+794 silly tarball no local data for react-redux@https://registry.npmjs.org/react-redux/-/react-redux-9.3.0.tgz. Extracting by manifest.
+795 silly tarball no local data for @standard-schema/spec@https://registry.npmjs.org/@standard-schema/spec/-/spec-1.1.0.tgz. Extracting by manifest.
+796 silly tarball no local data for @types/d3-ease@https://registry.npmjs.org/@types/d3-ease/-/d3-ease-3.0.2.tgz. Extracting by manifest.
+797 silly tarball no local data for es-toolkit@https://registry.npmjs.org/es-toolkit/-/es-toolkit-1.48.1.tgz. Extracting by manifest.
+798 silly tarball no local data for @reduxjs/toolkit@https://registry.npmjs.org/@reduxjs/toolkit/-/toolkit-2.12.0.tgz. Extracting by manifest.
+799 silly tarball no local data for @standard-schema/utils@https://registry.npmjs.org/@standard-schema/utils/-/utils-0.3.0.tgz. Extracting by manifest.
+800 silly tarball no local data for decimal.js-light@https://registry.npmjs.org/decimal.js-light/-/decimal.js-light-2.5.1.tgz. Extracting by manifest.
+801 silly tarball no local data for motion-dom@https://registry.npmjs.org/motion-dom/-/motion-dom-12.40.0.tgz. Extracting by manifest.
+802 silly tarball no local data for tailwind-merge@https://registry.npmjs.org/tailwind-merge/-/tailwind-merge-3.6.0.tgz. Extracting by manifest.
+803 silly tarball no local data for react-hook-form@https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.80.0.tgz. Extracting by manifest.
+804 silly tarball no local data for recharts@https://registry.npmjs.org/recharts/-/recharts-3.8.1.tgz. Extracting by manifest.
+805 silly tarball no local data for lucide-react@https://registry.npmjs.org/lucide-react/-/lucide-react-1.21.0.tgz. Extracting by manifest.
+806 silly tarball no local data for gsap@https://registry.npmjs.org/gsap/-/gsap-3.15.0.tgz. Extracting by manifest.
+807 silly tarball no local data for date-fns@https://registry.npmjs.org/date-fns/-/date-fns-4.4.0.tgz. Extracting by manifest.
+808 silly tarball no local data for framer-motion@https://registry.npmjs.org/framer-motion/-/framer-motion-12.40.0.tgz. Extracting by manifest.
+809 silly tarball no local data for clsx@https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz. Extracting by manifest.
+810 silly tarball no local data for @studio-freight/lenis@https://registry.npmjs.org/@studio-freight/lenis/-/lenis-1.0.42.tgz. Extracting by manifest.
+811 silly tarball no local data for motion-utils@https://registry.npmjs.org/motion-utils/-/motion-utils-12.39.0.tgz. Extracting by manifest.
+812 silly tarball no local data for @hookform/resolvers@https://registry.npmjs.org/@hookform/resolvers/-/resolvers-5.4.0.tgz. Extracting by manifest.
+813 silly tarball no local data for immer@https://registry.npmjs.org/immer/-/immer-11.1.8.tgz. Extracting by manifest.
+814 http fetch GET 200 https://registry.npmjs.org/@types/d3-path/-/d3-path-3.1.1.tgz 378ms (cache miss)
+815 http fetch GET 200 https://registry.npmjs.org/internmap/-/internmap-2.0.3.tgz 382ms (cache miss)
+816 http fetch GET 200 https://registry.npmjs.org/@types/d3-color/-/d3-color-3.1.3.tgz 381ms (cache miss)
+817 http fetch GET 200 https://registry.npmjs.org/d3-format/-/d3-format-3.1.2.tgz 422ms (cache miss)
+818 http fetch GET 200 https://registry.npmjs.org/redux-thunk/-/redux-thunk-3.1.0.tgz 417ms (cache miss)
+819 http fetch GET 200 https://registry.npmjs.org/@types/d3-interpolate/-/d3-interpolate-3.0.4.tgz 421ms (cache miss)
+820 http fetch GET 200 https://registry.npmjs.org/@types/d3-array/-/d3-array-3.2.2.tgz 423ms (cache miss)
+821 http fetch GET 200 https://registry.npmjs.org/d3-path/-/d3-path-3.1.0.tgz 454ms (cache miss)
+822 http fetch GET 200 https://registry.npmjs.org/@types/d3-scale/-/d3-scale-4.0.9.tgz 450ms (cache miss)
+823 http fetch GET 200 https://registry.npmjs.org/@types/d3-shape/-/d3-shape-3.1.8.tgz 454ms (cache miss)
+824 http fetch GET 200 https://registry.npmjs.org/d3-color/-/d3-color-3.1.0.tgz 523ms (cache miss)
+825 http fetch GET 200 https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.6.0.tgz 633ms (cache miss)
+826 http fetch GET 200 https://registry.npmjs.org/eventemitter3/-/eventemitter3-5.0.4.tgz 638ms (cache miss)
+827 http fetch GET 200 https://registry.npmjs.org/@types/use-sync-external-store/-/use-sync-external-store-0.0.6.tgz 872ms (cache miss)
+828 http fetch GET 200 https://registry.npmjs.org/tiny-invariant/-/tiny-invariant-1.3.3.tgz 884ms (cache miss)
+829 http fetch GET 200 https://registry.npmjs.org/@types/d3-ease/-/d3-ease-3.0.2.tgz 1017ms (cache miss)
+830 http fetch GET 200 https://registry.npmjs.org/@standard-schema/spec/-/spec-1.1.0.tgz 1021ms (cache miss)
+831 http fetch GET 200 https://registry.npmjs.org/@standard-schema/utils/-/utils-0.3.0.tgz 1032ms (cache miss)
+832 http fetch GET 200 https://registry.npmjs.org/d3-timer/-/d3-timer-3.0.1.tgz 1056ms (cache miss)
+833 http fetch GET 200 https://registry.npmjs.org/@types/d3-time/-/d3-time-3.0.4.tgz 1298ms (cache miss)
+834 http fetch GET 200 https://registry.npmjs.org/decimal.js-light/-/decimal.js-light-2.5.1.tgz 1299ms (cache miss)
+835 http fetch GET 200 https://registry.npmjs.org/redux/-/redux-5.0.1.tgz 1503ms (cache miss)
+836 http fetch GET 200 https://registry.npmjs.org/d3-ease/-/d3-ease-3.0.1.tgz 1559ms (cache miss)
+837 http fetch GET 200 https://registry.npmjs.org/d3-time/-/d3-time-3.1.0.tgz 1595ms (cache miss)
+838 http fetch GET 200 https://registry.npmjs.org/d3-time-format/-/d3-time-format-4.1.0.tgz 1625ms (cache miss)
+839 http fetch GET 200 https://registry.npmjs.org/@types/d3-timer/-/d3-timer-3.0.2.tgz 1678ms (cache miss)
+840 http fetch GET 200 https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz 1798ms (cache miss)
+841 http fetch GET 200 https://registry.npmjs.org/reselect/-/reselect-5.1.1.tgz 1855ms (cache miss)
+842 http fetch GET 200 https://registry.npmjs.org/@studio-freight/lenis/-/lenis-1.0.42.tgz 1889ms (cache miss)
+843 warn deprecated @studio-freight/lenis@1.0.42: The '@studio-freight/lenis' package has been renamed to 'lenis'. Please update your dependencies: npm install lenis and visit the documentation: https://www.npmjs.com/package/lenis
+844 http fetch GET 200 https://registry.npmjs.org/d3-interpolate/-/d3-interpolate-3.0.1.tgz 1937ms (cache miss)
+845 http fetch GET 200 https://registry.npmjs.org/d3-scale/-/d3-scale-4.0.2.tgz 1948ms (cache miss)
+846 http fetch GET 200 https://registry.npmjs.org/immer/-/immer-10.2.0.tgz 1944ms (cache miss)
+847 http fetch GET 200 https://registry.npmjs.org/d3-array/-/d3-array-3.2.4.tgz 2109ms (cache miss)
+848 http fetch GET 200 https://registry.npmjs.org/react-redux/-/react-redux-9.3.0.tgz 2430ms (cache miss)
+849 http fetch GET 200 https://registry.npmjs.org/immer/-/immer-11.1.8.tgz 2511ms (cache miss)
+850 http fetch GET 200 https://registry.npmjs.org/tailwind-merge/-/tailwind-merge-3.6.0.tgz 2549ms (cache miss)
+851 http fetch GET 200 https://registry.npmjs.org/d3-shape/-/d3-shape-3.2.0.tgz 2584ms (cache miss)
+852 http fetch GET 200 https://registry.npmjs.org/motion-utils/-/motion-utils-12.39.0.tgz 2754ms (cache miss)
+853 http fetch GET 200 https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.80.0.tgz 4495ms (cache miss)
+854 http fetch GET 200 https://registry.npmjs.org/gsap/-/gsap-3.15.0.tgz 5118ms (cache miss)
+855 http fetch GET 200 https://registry.npmjs.org/victory-vendor/-/victory-vendor-37.3.6.tgz 5207ms (cache miss)
+856 http fetch GET 200 https://registry.npmjs.org/@reduxjs/toolkit/-/toolkit-2.12.0.tgz 5347ms (cache miss)
+857 http fetch GET 200 https://registry.npmjs.org/framer-motion/-/framer-motion-12.40.0.tgz 6471ms (cache miss)
+858 http fetch GET 200 https://registry.npmjs.org/@hookform/resolvers/-/resolvers-5.4.0.tgz 6582ms (cache miss)
+859 http fetch GET 200 https://registry.npmjs.org/motion-dom/-/motion-dom-12.40.0.tgz 6637ms (cache miss)
+860 http fetch GET 200 https://registry.npmjs.org/recharts/-/recharts-3.8.1.tgz 7954ms (cache miss)
+861 http fetch GET 200 https://registry.npmjs.org/es-toolkit/-/es-toolkit-1.48.1.tgz 15818ms (cache miss)
+862 http fetch GET 200 https://registry.npmjs.org/lucide-react/-/lucide-react-1.21.0.tgz 18201ms (cache miss)
+863 http fetch GET 200 https://registry.npmjs.org/date-fns/-/date-fns-4.4.0.tgz 21312ms (cache miss)
+864 silly ADD node_modules/d3-path
+865 silly ADD node_modules/d3-time-format
+866 silly ADD node_modules/d3-format
+867 silly ADD node_modules/d3-color
+868 silly ADD node_modules/internmap
+869 silly ADD node_modules/@types/d3-path
+870 silly ADD node_modules/@types/d3-color
+871 silly ADD node_modules/d3-timer
+872 silly ADD node_modules/d3-time
+873 silly ADD node_modules/d3-shape
+874 silly ADD node_modules/d3-scale
+875 silly ADD node_modules/d3-interpolate
+876 silly ADD node_modules/d3-ease
+877 silly ADD node_modules/d3-array
+878 silly ADD node_modules/@types/d3-timer
+879 silly ADD node_modules/@types/d3-time
+880 silly ADD node_modules/@types/d3-shape
+881 silly ADD node_modules/@types/d3-scale
+882 silly ADD node_modules/@types/d3-interpolate
+883 silly ADD node_modules/@types/d3-ease
+884 silly ADD node_modules/@types/d3-array
+885 silly ADD node_modules/@types/use-sync-external-store
+886 silly ADD node_modules/redux-thunk
+887 silly ADD node_modules/redux
+888 silly ADD node_modules/@standard-schema/spec
+889 silly ADD node_modules/victory-vendor
+890 silly ADD node_modules/use-sync-external-store
+891 silly ADD node_modules/tiny-invariant
+892 silly ADD node_modules/reselect
+893 silly ADD node_modules/react-redux
+894 silly ADD node_modules/immer
+895 silly ADD node_modules/eventemitter3
+896 silly ADD node_modules/es-toolkit
+897 silly ADD node_modules/decimal.js-light
+898 silly ADD node_modules/@reduxjs/toolkit
+899 silly ADD node_modules/@reduxjs/toolkit/node_modules/immer
+900 silly ADD node_modules/motion-utils
+901 silly ADD node_modules/motion-dom
+902 silly ADD node_modules/@standard-schema/utils
+903 silly ADD node_modules/tailwind-merge
+904 silly ADD node_modules/recharts
+905 silly ADD node_modules/react-hook-form
+906 silly ADD node_modules/lucide-react
+907 silly ADD node_modules/gsap
+908 silly ADD node_modules/framer-motion
+909 silly ADD node_modules/date-fns
+910 silly ADD node_modules/clsx
+911 silly ADD node_modules/@studio-freight/lenis
+912 silly ADD node_modules/@hookform/resolvers
+913 silly ADD
+914 silly ADD
+915 silly ADD
+916 silly ADD
+917 silly ADD
+918 silly ADD
+919 silly ADD
+920 silly ADD
+921 silly ADD
+922 silly ADD
+923 silly ADD
+924 silly ADD
+925 silly ADD
+926 silly ADD
+927 silly ADD
+928 silly ADD
+929 silly ADD
+930 silly ADD
+931 silly ADD
+932 silly ADD
+933 silly ADD
+934 silly ADD
+935 silly ADD
+936 silly ADD
+937 silly ADD
+938 silly ADD
+939 silly ADD
+940 silly ADD
+941 silly ADD
+942 silly ADD
+943 silly ADD
+944 silly ADD
+945 silly ADD
+946 silly ADD
+947 silly ADD
+948 silly ADD
+949 silly ADD
+950 silly ADD
+951 silly ADD
+952 silly ADD
+953 silly ADD
+954 silly ADD
+955 silly ADD node_modules/@napi-rs/wasm-runtime
+956 silly ADD
+957 silly ADD
+958 silly ADD
+959 silly ADD
+960 silly ADD
+961 silly ADD
+962 silly ADD
+963 silly ADD
+964 silly ADD
+965 silly ADD
+966 silly ADD
+967 silly ADD
+968 silly ADD
+969 silly ADD
+970 silly ADD
+971 silly ADD
+972 silly ADD
+973 silly ADD
+974 silly ADD
+975 silly ADD
+976 silly ADD
+977 silly ADD
+978 silly ADD
+979 silly ADD
+980 silly ADD
+981 silly ADD
+982 silly ADD
+983 silly ADD
+984 silly ADD
+985 silly ADD
+986 silly ADD
+987 silly ADD
+988 silly ADD
+989 silly ADD
+990 silly ADD
+991 silly ADD
+992 silly ADD
+993 silly ADD
+994 silly ADD
+995 silly ADD
+996 silly ADD
+997 silly ADD
+998 silly ADD
+999 silly ADD
+1000 silly ADD
+1001 silly ADD
+1002 silly ADD
+1003 silly ADD
+1004 silly ADD
+1005 silly ADD
+1006 silly ADD
+1007 silly ADD
+1008 silly ADD
+1009 silly ADD
+1010 silly ADD
+1011 silly ADD
+1012 silly ADD
+1013 silly ADD
+1014 silly ADD
+1015 silly ADD
+1016 silly ADD
+1017 silly ADD
+1018 silly ADD
+1019 silly ADD
+1020 silly ADD
+1021 silly ADD
+1022 silly ADD
+1023 silly ADD
+1024 silly ADD
+1025 silly ADD
+1026 silly ADD
+1027 silly ADD
+1028 silly ADD
+1029 silly ADD
+1030 silly ADD
+1031 silly ADD
+1032 silly ADD
+1033 silly ADD
+1034 silly ADD
+1035 silly ADD
+1036 silly ADD
+1037 silly ADD
+1038 silly ADD
+1039 silly ADD
+1040 silly ADD
+1041 silly ADD
+1042 silly ADD
+1043 silly ADD
+1044 silly ADD
+1045 silly ADD
+1046 silly ADD
+1047 silly ADD
+1048 silly ADD
+1049 silly ADD
+1050 silly ADD
+1051 silly ADD
+1052 silly ADD
+1053 silly ADD
+1054 silly ADD
+1055 silly ADD
+1056 silly ADD
+1057 silly ADD
+1058 silly ADD
+1059 silly ADD
+1060 silly ADD
+1061 silly ADD
+1062 silly ADD
+1063 silly ADD
+1064 silly ADD
+1065 silly ADD
+1066 silly ADD
+1067 silly ADD
+1068 silly ADD
+1069 silly ADD
+1070 silly ADD
+1071 silly ADD
+1072 silly ADD
+1073 silly ADD
+1074 silly ADD
+1075 silly ADD
+1076 silly ADD
+1077 silly ADD
+1078 silly ADD
+1079 silly ADD
+1080 silly ADD
+1081 silly ADD
+1082 silly ADD
+1083 silly ADD
+1084 silly ADD
+1085 silly ADD
+1086 silly ADD
+1087 silly ADD
+1088 silly ADD
+1089 silly ADD
+1090 silly ADD
+1091 silly ADD
+1092 silly ADD
+1093 silly ADD
+1094 silly ADD
+1095 silly ADD
+1096 silly ADD
+1097 silly ADD
+1098 silly ADD
+1099 silly ADD
+1100 silly ADD
+1101 silly ADD
+1102 silly ADD
+1103 silly ADD
+1104 silly ADD
+1105 silly ADD
+1106 silly ADD
+1107 silly ADD
+1108 silly ADD
+1109 verbose cwd C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled
+1110 verbose os Windows_NT 10.0.26200
+1111 verbose node v22.15.0
+1112 verbose npm  v10.9.2
+1113 verbose exit 0
+1114 info ok

@@ -1,0 +1,16 @@
+
+--- 2026-06-23T11:10:30.133Z debug
+🪵  Writing logs to "C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\.xdg-config\.wrangler\logs\wrangler-2026-06-23_11-10-29_108.log"
+---
+
+--- 2026-06-23T11:10:30.132Z debug
+local dev variables file not found at ".dev.vars". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-06-23T11:10:30.134Z debug
+.env file not found at "C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\.env". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-06-23T11:10:30.135Z debug
+.env file not found at "C:\Users\PAVILION\Documents\Codex\2026-06-21\sites-plugin-sites-openai-bundled\.env.local". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
