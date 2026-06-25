@@ -2,7 +2,7 @@
 
 import { zodResolver } from "@hookform/resolvers/zod";
 import { AnimatePresence, motion } from "framer-motion";
-import { CheckCircle2, ChevronDown, Mail, MapPin, Phone, Send } from "lucide-react";
+import { CheckCircle2, ChevronDown, Mail, MapPin, Phone, Send, type LucideIcon } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
@@ -105,11 +105,11 @@ export function ContactExperience() {
         </AnimatePresence>
 
         <aside className="space-y-6">
-          {[
+          {([
             [Phone, "Phone", "+1 (212) 555-0188"],
             [Mail, "Email", "hello@maison-eternel.com"],
             [MapPin, "Location", "New York · Paris · Dubai"],
-          ].map(([Icon, label, value]) => (
+          ] as Array<[LucideIcon, string, string]>).map(([Icon, label, value]) => (
             <div key={String(label)} className="editorial-card p-6">
               {typeof Icon !== "string" ? <Icon className="text-champagne-600" /> : null}
               <p className="mt-4 text-xs font-bold uppercase tracking-[0.18em] text-muted-stone">{label}</p>

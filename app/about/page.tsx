@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ArrowRight, Gem, Handshake, Sparkles } from "lucide-react";
+import { ArrowRight, Gem, Handshake, Sparkles, type LucideIcon } from "lucide-react";
 import { SiteFrame } from "@/components/site-frame";
 import { Reveal, SectionHeader } from "@/components/ui";
 import { heroImages, team } from "@/lib/data";
@@ -9,6 +9,24 @@ const numbers = [
   ["420k", "average guest steps coordinated"],
   ["96%", "vendor rebooking rate"],
   ["24h", "concierge response window"],
+];
+
+const workSteps: Array<{ copy: string; icon: LucideIcon; title: string }> = [
+  {
+    title: "Curation",
+    copy: "We listen for the atmosphere first, then build a venue and vendor edit around it.",
+    icon: Gem,
+  },
+  {
+    title: "Planning",
+    copy: "Budgets, timelines, approvals, and guests move through one calm operating system.",
+    icon: Handshake,
+  },
+  {
+    title: "Celebration",
+    copy: "On the day, the work disappears. What remains is presence, beauty, and ease.",
+    icon: Sparkles,
+  },
 ];
 
 export default function AboutPage() {
@@ -70,14 +88,10 @@ export default function AboutPage() {
       <section className="section-shell bg-ivory-50">
         <SectionHeader eyebrow="How We Work" title="A three-part rhythm for a celebration with depth." />
         <div className="mx-auto mt-12 grid max-w-7xl gap-6 md:grid-cols-3">
-          {[
-            ["Curation", "We listen for the atmosphere first, then build a venue and vendor edit around it.", Gem],
-            ["Planning", "Budgets, timelines, approvals, and guests move through one calm operating system.", Handshake],
-            ["Celebration", "On the day, the work disappears. What remains is presence, beauty, and ease.", Sparkles],
-          ].map(([title, copy, Icon]) => (
-            <Reveal key={String(title)}>
+          {workSteps.map(({ copy, icon: Icon, title }) => (
+            <Reveal key={title}>
               <article className="editorial-card h-full p-8">
-                {typeof Icon !== "string" ? <Icon className="text-champagne-600" size={30} /> : null}
+                <Icon className="text-champagne-600" size={30} />
                 <h3 className="mt-8 font-display text-4xl font-semibold">{title}</h3>
                 <p className="mt-4 text-sm leading-7 text-warm-gray">{copy}</p>
                 <ArrowRight className="mt-8 text-champagne-600" />

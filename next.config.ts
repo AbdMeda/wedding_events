@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 
-const nextConfig = {
+const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
@@ -9,17 +9,6 @@ const nextConfig = {
       },
     ],
   },
-
-  typescript: {
-    // سيقوم بتجاوز أخطاء الـ TypeScript عند الرفع فقط
-    ignoreBuildErrors: true,
-  },
-
-  eslint: {
-    // سيقوم بتجاوز أخطاء الـ ESLint عند الرفع فقط
-    ignoreDuringBuilds: true,
-  },
 };
 
-// قمنا بإلغاء صرامة النوع هنا عبر "as any" ليقبلها محرّر الأكواد فوراً
-export default nextConfig ;
+export default nextConfig;

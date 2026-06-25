@@ -1,8 +1,8 @@
-# vinext-starter
+# wedding_events
 
-A clean full-stack starter running on
-[vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and
-Drizzle support.
+A wedding events website built with Next.js, React, Tailwind CSS, and Vinext.
+The project can be run locally with Vinext and deployed to Vercel with a
+standard Next.js production build.
 
 ## Prerequisites
 
@@ -13,19 +13,18 @@ Drizzle support.
 ```bash
 npm install
 npm run dev
-npm run build
+npm run build:vercel
 ```
 
-This starter does not use `wrangler.jsonc`.
+This project does not use `wrangler.jsonc`.
 
 ## Included Shape
 
-- edit site code under `app/`
-- `.openai/hosting.json` declares optional Sites D1 and R2 bindings
-- `vite.config.ts` simulates declared bindings for local development
-- `db/schema.ts` starts intentionally empty
-- `examples/d1/` contains an optional D1 example surface
-- `drizzle.config.ts` supports local migration generation when needed
+- site routes and page layouts live under `app/`
+- shared UI and interactive sections live under `components/`
+- production fonts are loaded through `next/font` so Vercel serves them with the build
+- `build:vercel` runs the Next.js production build used by Vercel
+- `build` verifies the Vinext build output for local/runtime compatibility
 
 ## Workspace Auth Headers
 
@@ -62,6 +61,7 @@ export default async function Home() {
 
 - `npm run dev`: start local development
 - `npm run build`: verify the vinext build output
+- `npm run build:vercel`: verify the Vercel production build
 - `npm run db:generate`: generate Drizzle migrations after schema changes
 
 ## Learn More
